@@ -105,7 +105,8 @@
 .disco:hover{transform:translateY(-5px);border-color:rgba(255,106,26,.55)}
 .disco .arte{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--panel2)}
 .disco .arte img{width:100%;height:100%;object-fit:cover;display:block}
-.disco .arte .etiqueta{position:absolute;top:.75rem;right:.75rem;background:var(--amber);
+.disco .arte .etiqueta{position:absolute;top:.75rem;left:.75rem;right:auto;width:auto;
+  display:inline-block;background:var(--amber);
   color:#08100F;font:700 .6rem/1 var(--body,Inter,sans-serif);letter-spacing:.14em;
   text-transform:uppercase;padding:.3rem .55rem;border-radius:2px}
 .disco .cuerpo{padding:1rem 1.15rem 1.25rem}
